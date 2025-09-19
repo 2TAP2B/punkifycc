@@ -172,7 +172,7 @@ const config: SiteConfig = {
   giscus: {
     repo: '2TAP2B/punkifycc',
     repoId: 'R_kgDOPzRzXA',
-    category: 'Giscus',
+    category: 'Q&A',
     categoryId: 'DIC_kwDOPzRzXM4CvqG_',
     reactionsEnabled: true, // Enable reactions on post itself
   },
