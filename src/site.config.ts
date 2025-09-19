@@ -168,7 +168,7 @@ const config: SiteConfig = {
   // You'll need a GitHub repository with discussions enabled and the Giscus app installed.
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // IMPORTANT: Update giscus.json in the root of the project with your own website URL
-  // If you don't want to use Giscus, set this to undefined.
+  // If you don't want to use Giscus, set this to undefined. ok
   giscus: {
     repo: '2TAP2B/punkifycc',
     repoId: 'R_kgDOPzRzXA',

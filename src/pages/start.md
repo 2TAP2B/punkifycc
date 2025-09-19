@@ -32,3 +32,4 @@ Beets is like having a music librarian that never gets tired. It'll automaticall
 That's it - three components, and you've got your own personal Spotify. Each of these deserves a deeper dive (which I'll cover in future posts), but this gives you the roadmap. Start with the Pi, get Navidrome running, then let beets sort out your music library.
 
 Ready to dive deeper into any of these? Check out the posts tagged with [Server Hardware](/tags/server-hardware), [Server Software](/tags/server-software), or [Tagging](/tags/tagging) for the nitty-gritty details.
+
