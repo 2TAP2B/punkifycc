@@ -30,8 +30,9 @@ Look, I don't hate Spotify because it's trendy to hate big tech. I hate it becau
 - Their algorithms push the same stuff everyone else is listening to
 - They pay artists almost nothing
 - They can remove music from "your" library whenever they want
-- They don't understand the difference between a collector and a casual listener
-- The whole experience is designed around discovery, not deep listening
+- They're pushing AI-generated music, which is terrible for every real musician out there
+- Before AI, it was ghostwriters creating music for 20 different "artists" - fake creativity for profit
+- Independent bands don't have a chance to get into Spotify's curated playlists - the system is rigged
 - The massive investment from Spotify into arms companies was the last straw for me
 
 I'm not trying to build the next big streaming platform. I'm just sharing how I solved my own problem, in case you've got the same one.

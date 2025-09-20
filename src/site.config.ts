@@ -37,8 +37,12 @@ const config: SiteConfig = {
       url: '/about',
     },
     {
-      name: 'Where to Start',
+      name: 'Get Started',
       url: '/start',
+    },
+    {
+      name: 'My Setup',
+      url: '/my-setup',
     },
     {
       name: 'Archive',
@@ -156,11 +160,9 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: 'https://github.com/2TAP2B',
-    mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://github.com/stelcodes/multiterm-astro',
-    bluesky: 'https://github.com/stelcodes/multiterm-astro',
-    twitter: 'https://github.com/stelcodes/multiterm-astro',
+    mastodon: 'https://social.xanten.cc/@tobias',
+    email: 'mailto:twobe@pm.me',
+    matrix: 'https://matrix.to/#/@tobias:xanten.cc',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
