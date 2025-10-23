@@ -1,6 +1,6 @@
 ---
 avatarImage:
-  src: './avatar.jpg'
+  src: './punkify-s.png'
   alt: 'My avatar'
 ---
 
