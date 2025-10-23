@@ -7,6 +7,8 @@ title: Software Setup
 
 Alright, you've got your hardware sorted. Now let's talk about what actually runs on this thing.
 
+![software](/software.jpg)
+
 ## Ubuntu 24.04 LTS: The Boring Choice That Actually Works
 
 I'm going with Ubuntu 24.04 Server LTS, and before you start rolling your eyes about how "mainstream" that is, hear me out. This isn't about being cool or using some obscure Linux distribution that three people have heard of. This is about building something that actually works and keeps working.

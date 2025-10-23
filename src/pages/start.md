@@ -11,9 +11,14 @@ There are really three main things you need to figure out, and once you've got t
 
 ## Server Hardware
 
-Let's start with the foundation - you need something to run your music server on. Here's the thing: you don't need some massive, expensive setup. A **Raspberry Pi 4** is perfect for getting started. Seriously, this little $50 computer can handle streaming music to multiple devices without breaking a sweat.
+Let's start with the foundation - you need something to run your music server on. Here's the thing: you don't need some massive, expensive setup. You've got two really solid options to get started:
+
+**Raspberry Pi 4** is a great entry point - this little $50 computer can handle streaming music to multiple devices without breaking a sweat. It's tiny, uses almost no power, and there's a huge community around it. Perfect if you want something compact and purpose-built.
 ![raspbery pi](/pi.png)
-I started with a Pi 4 with 4GB of RAM, threw a decent SD card in there, and it just worked. You can always upgrade later if you need more storage or processing power, but for testing the waters? The Pi is your friend.
+
+But personally? I prefer starting with an **old laptop**. You can grab a decent used business laptop for around 50€, and it gives you some real advantages: built-in screen and keyboard for troubleshooting, proper SATA storage instead of SD cards, and usually more RAM and processing power than a Pi.
+
+For this tutorial series, I'm using an old MacBook Air with an i7 - got it for free, and it's more than powerful enough for streaming music. The built-in display is incredibly handy when things go sideways, and you can always expand storage later without dealing with USB adapters.
 
 ## Server Software
 
@@ -37,7 +42,7 @@ That's it - three components, and you've got your own personal Spotify. Each of 
 
 Ready to dive deeper? Here are step-by-step guides for each component:
 
-- **[Hardware Setup](/hardware)** - Complete Raspberry Pi 4 setup, storage options, and networking
+- **[Hardware Setup](/hardware)** - Complete setup, storage options, and networking
 - **[Software Setup](/software)** - Installing and configuring Navidrome and related tools  
 - **[Music Tagging](/tagging)** - Mastering Beets for perfect music organization
 

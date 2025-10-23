@@ -7,6 +7,8 @@ title: Hardware Setup
 
 So you want to build your own music server? Cool. Let's talk about what you actually need to get this thing running.
 
+![hardware](/hardware.jpg)
+
 ## The Pi vs. The Laptop Dilemma
 
 Everyone and their dog will tell you to use a Raspberry Pi 4 for this kind of project. And yeah, I get it - they're tiny, they're cheap, they look cool sitting there with all those little GPIO pins you'll never use. The Pi is definitely a solid starting point if you want something that barely uses any power and fits in your pocket.

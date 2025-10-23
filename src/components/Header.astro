@@ -40,7 +40,27 @@ const selectTheme =
           {
             siteConfig.navLinks.map((link) => (
               <li class="p-1" aria-expanded="false">
-                <NavLink link={link} />
+                {link.children && link.children.length > 0 ? (
+                  <div>
+                    <div class="underline font-semibold mb-2">{link.name}</div>
+                    <ul class="pl-3 space-y-1">
+                      {link.children.map((child) => (
+                        <li>
+                          <a
+                            class="underline text-sm"
+                            rel={child.external ? 'noopener noreferrer' : undefined}
+                            target={child.external ? '_blank' : undefined}
+                            href={child.url}
+                          >
+                            {child.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <NavLink link={link} />
+                )}
               </li>
             ))
           }

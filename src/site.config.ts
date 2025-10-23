@@ -41,6 +41,24 @@ const config: SiteConfig = {
       url: '/start',
     },
     {
+      name: 'Guides',
+      url: '#',
+      children: [
+        {
+          name: 'Hardware',
+          url: '/hardware',
+        },
+        {
+          name: 'Software',
+          url: '/software',
+        },
+        {
+          name: 'Tagging',
+          url: '/tagging',
+        },
+      ],
+    },
+    {
       name: 'My Setup',
       url: '/my-setup',
     },
