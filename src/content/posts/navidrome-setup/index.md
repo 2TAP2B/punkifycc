@@ -1,5 +1,5 @@
 ---
-title: 'Setting Up Navidrome with Docker: Your Music Streaming Server'
+title: 'Setting Up Navidrome with Docker'
 published: 2025-10-23
 draft: false
 description: 'Complete guide to installing Navidrome using Docker Compose, plus setting up your music library and getting your first streams running.'
@@ -203,14 +203,16 @@ Navidrome should automatically scan your `~/music` folder. If it doesn't find yo
 The beauty of Navidrome is that it works with tons of mobile apps:
 
 **Android:**
-- **DSub** (my favorite)
-- **Ultrasonic**
-- **Subsonic**
+- **Symfonium** (my favorite)
+- **DSub**
+- **Tempo**
 
 **iOS:**
 - **play:Sub**
 - **Amperfy**
-- **Subsonic**
+- **flo**
+
+More: [more Navidrom Apps](https://www.navidrome.org/docs/overview/#apps)
 
 Just point any Subsonic-compatible app to:
 - **Server:** `http://your-server-ip:4533`
@@ -227,11 +229,6 @@ Just point any Subsonic-compatible app to:
 - Check file permissions: `ls -la ~/music`
 - Make sure your music files are in common formats (MP3, FLAC, M4A)
 - Try a manual rescan in Settings → Library
-
-**Can't play music?**
-- Check browser console for errors (F12)
-- Try a different browser
-- Verify music files aren't corrupted
 
 ## Managing Your Server
 
@@ -275,21 +272,6 @@ You now have a fully functional music streaming server! But we're not done yet. 
 - **Backup strategies** - Protecting your setup and music
 - **Music library management** - Using Beets for perfect organization
 - **Mobile app recommendations** - The best clients for your phone
-
-## Quick Reference
-
-### Important URLs:
-- Navidrome: `http://your-server-ip:4533`
-- Airsonic Refix: `http://your-server-ip:23880`
-
-### Important Directories:
-- Music: `~/music`
-- Navidrome config: `~/navidrome`
-- Container data: `~/navidrome/data`
-
-### Default Credentials:
-- Username: `admin`
-- Password: `admin` (change this!)
 
 Congratulations - you're now streaming your own music, on your own terms, with your own server. No algorithms, no ads, no corporate oversight. Just your music, the way you want it.
 

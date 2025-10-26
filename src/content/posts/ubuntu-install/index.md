@@ -1,5 +1,5 @@
 ---
-title: 'Installing Ubuntu Server 24.04 LTS: The Foundation'
+title: 'Installing Ubuntu 24.04 LTS'
 published: 2025-10-23
 draft: false
 description: 'Step-by-step guide to installing Ubuntu Server on your music streaming hardware, plus essential post-install setup.'
